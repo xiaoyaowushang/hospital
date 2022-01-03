@@ -1,0 +1,438 @@
+2021-05-20 10:24:57.534 [restartedMain] INFO  com.gbq.hospital.HospitalApp - Starting HospitalApp on iMac.local with PID 64211 (started by admin in /Users/admin/Desktop/java源码/未上传/springboot医院管理系统/源码/hospital)
+2021-05-20 10:24:57.543 [restartedMain] INFO  com.gbq.hospital.HospitalApp - No active profile set, falling back to default profiles: default
+2021-05-20 10:24:57.593 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-05-20 10:24:57.593 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-05-20 10:24:58.483 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'shiroConfiguration' of type [com.gbq.hospital.config.shiro.ShiroConfiguration$$EnhancerBySpringCGLIB$$abda8d9d] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-05-20 10:24:58.501 [restartedMain] INFO  com.gbq.hospital.config.shiro.ShiroConfiguration - 注入Shiro的Web过滤器-->securityManager
+2021-05-20 10:24:58.972 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'sessionManager' of type [com.gbq.hospital.config.shiro.MySessionManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-05-20 10:24:58.975 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'securityManager' of type [org.apache.shiro.web.mgt.DefaultWebSecurityManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-05-20 10:24:58.975 [restartedMain] INFO  com.gbq.hospital.config.shiro.ShiroConfiguration - 注入Shiro的Web过滤器-->shiroFilter
+2021-05-20 10:24:59.017 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$4e0c82d9] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-05-20 10:24:59.024 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'authorizationAttributeSourceAdvisor' of type [org.apache.shiro.spring.security.interceptor.AuthorizationAttributeSourceAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-05-20 10:24:59.559 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8088 (http)
+2021-05-20 10:24:59.583 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2021-05-20 10:24:59.584 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.17]
+2021-05-20 10:24:59.785 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2021-05-20 10:24:59.785 [restartedMain] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 2192 ms
+2021-05-20 10:25:00.786 [restartedMain] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2021-05-20 10:25:01.238 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2021-05-20 10:25:01.335 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8088 (http) with context path ''
+2021-05-20 10:25:01.337 [restartedMain] INFO  com.gbq.hospital.HospitalApp - Started HospitalApp in 24.749 seconds (JVM running for 32.281)
+2021-05-20 10:25:48.836 [http-nio-8088-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-05-20 10:25:48.837 [http-nio-8088-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2021-05-20 10:25:48.844 [http-nio-8088-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 7 ms
+2021-05-20 10:25:48.934 [http-nio-8088-exec-1] INFO  o.a.s.session.mgt.AbstractValidatingSessionManager - Enabling session validation scheduler...
+2021-05-20 10:31:05.820 [http-nio-8088-exec-5] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2021-05-20 10:31:06.412 [http-nio-8088-exec-5] DEBUG com.gbq.hospital.dao.LoginMapper.findByUsername - ==>  Preparing: select * from login where username=? 
+2021-05-20 10:31:06.423 [http-nio-8088-exec-5] DEBUG com.gbq.hospital.dao.LoginMapper.findByUsername - ==> Parameters: admin1(String)
+2021-05-20 10:31:06.461 [http-nio-8088-exec-5] DEBUG com.gbq.hospital.dao.LoginMapper.findByUsername - <==      Total: 1
+2021-05-20 10:31:06.464 [http-nio-8088-exec-5] DEBUG com.gbq.hospital.dao.LoginMapper.findByUsername - ==>  Preparing: select * from login where username=? 
+2021-05-20 10:31:06.465 [http-nio-8088-exec-5] DEBUG com.gbq.hospital.dao.LoginMapper.findByUsername - ==> Parameters: admin1(String)
+2021-05-20 10:31:06.466 [http-nio-8088-exec-5] DEBUG com.gbq.hospital.dao.LoginMapper.findByUsername - <==      Total: 1
+2021-05-20 10:31:39.558 [http-nio-8088-exec-3] DEBUG com.gbq.hospital.dao.LoginMapper.findAllAdmin - ==>  Preparing: select * from login where role=1 
+2021-05-20 10:31:39.558 [http-nio-8088-exec-3] DEBUG com.gbq.hospital.dao.LoginMapper.findAllAdmin - ==> Parameters: 
+2021-05-20 10:31:39.560 [http-nio-8088-exec-3] DEBUG com.gbq.hospital.dao.LoginMapper.findAllAdmin - <==      Total: 6
+2021-05-20 10:32:19.317 [http-nio-8088-exec-9] DEBUG com.gbq.hospital.dao.LoginMapper.findByUsername - ==>  Preparing: select * from login where username=? 
+2021-05-20 10:32:19.318 [http-nio-8088-exec-9] DEBUG com.gbq.hospital.dao.LoginMapper.findByUsername - ==> Parameters: admin(String)
+2021-05-20 10:32:19.318 [http-nio-8088-exec-9] DEBUG com.gbq.hospital.dao.LoginMapper.findByUsername - <==      Total: 1
+2021-05-20 10:32:19.319 [http-nio-8088-exec-9] DEBUG com.gbq.hospital.dao.LoginMapper.findByUsername - ==>  Preparing: select * from login where username=? 
+2021-05-20 10:32:19.319 [http-nio-8088-exec-9] DEBUG com.gbq.hospital.dao.LoginMapper.findByUsername - ==> Parameters: admin(String)
+2021-05-20 10:32:19.320 [http-nio-8088-exec-9] DEBUG com.gbq.hospital.dao.LoginMapper.findByUsername - <==      Total: 1
+2021-05-20 10:32:21.553 [http-nio-8088-exec-10] DEBUG com.gbq.hospital.dao.LoginMapper.findByUsername - ==>  Preparing: select * from login where username=? 
+2021-05-20 10:32:21.553 [http-nio-8088-exec-10] DEBUG com.gbq.hospital.dao.LoginMapper.findByUsername - ==> Parameters: admin(String)
+2021-05-20 10:32:21.554 [http-nio-8088-exec-10] DEBUG com.gbq.hospital.dao.LoginMapper.findByUsername - <==      Total: 1
+2021-05-20 10:32:21.555 [http-nio-8088-exec-10] DEBUG com.gbq.hospital.dao.LoginMapper.findByUsername - ==>  Preparing: select * from login where username=? 
+2021-05-20 10:32:21.555 [http-nio-8088-exec-10] DEBUG com.gbq.hospital.dao.LoginMapper.findByUsername - ==> Parameters: admin(String)
+2021-05-20 10:32:21.556 [http-nio-8088-exec-10] DEBUG com.gbq.hospital.dao.LoginMapper.findByUsername - <==      Total: 1
+2021-05-20 10:32:22.082 [http-nio-8088-exec-1] DEBUG com.gbq.hospital.dao.LoginMapper.findByUsername - ==>  Preparing: select * from login where username=? 
+2021-05-20 10:32:22.082 [http-nio-8088-exec-1] DEBUG com.gbq.hospital.dao.LoginMapper.findByUsername - ==> Parameters: admin(String)
+2021-05-20 10:32:22.083 [http-nio-8088-exec-1] DEBUG com.gbq.hospital.dao.LoginMapper.findByUsername - <==      Total: 1
+2021-05-20 10:32:22.083 [http-nio-8088-exec-1] DEBUG com.gbq.hospital.dao.LoginMapper.findByUsername - ==>  Preparing: select * from login where username=? 
+2021-05-20 10:32:22.083 [http-nio-8088-exec-1] DEBUG com.gbq.hospital.dao.LoginMapper.findByUsername - ==> Parameters: admin(String)
+2021-05-20 10:32:22.084 [http-nio-8088-exec-1] DEBUG com.gbq.hospital.dao.LoginMapper.findByUsername - <==      Total: 1
+2021-05-20 10:32:22.328 [http-nio-8088-exec-2] DEBUG com.gbq.hospital.dao.LoginMapper.findByUsername - ==>  Preparing: select * from login where username=? 
+2021-05-20 10:32:22.328 [http-nio-8088-exec-2] DEBUG com.gbq.hospital.dao.LoginMapper.findByUsername - ==> Parameters: admin(String)
+2021-05-20 10:32:22.328 [http-nio-8088-exec-2] DEBUG com.gbq.hospital.dao.LoginMapper.findByUsername - <==      Total: 1
+2021-05-20 10:32:22.329 [http-nio-8088-exec-2] DEBUG com.gbq.hospital.dao.LoginMapper.findByUsername - ==>  Preparing: select * from login where username=? 
+2021-05-20 10:32:22.329 [http-nio-8088-exec-2] DEBUG com.gbq.hospital.dao.LoginMapper.findByUsername - ==> Parameters: admin(String)
+2021-05-20 10:32:22.330 [http-nio-8088-exec-2] DEBUG com.gbq.hospital.dao.LoginMapper.findByUsername - <==      Total: 1
+2021-05-20 10:32:30.586 [http-nio-8088-exec-4] DEBUG com.gbq.hospital.dao.LoginMapper.findByUsername - ==>  Preparing: select * from login where username=? 
+2021-05-20 10:32:30.598 [http-nio-8088-exec-4] DEBUG com.gbq.hospital.dao.LoginMapper.findByUsername - ==> Parameters: admin(String)
+2021-05-20 10:32:30.599 [http-nio-8088-exec-4] DEBUG com.gbq.hospital.dao.LoginMapper.findByUsername - <==      Total: 1
+2021-05-20 10:32:30.599 [http-nio-8088-exec-4] DEBUG com.gbq.hospital.dao.LoginMapper.findByUsername - ==>  Preparing: select * from login where username=? 
+2021-05-20 10:32:30.599 [http-nio-8088-exec-4] DEBUG com.gbq.hospital.dao.LoginMapper.findByUsername - ==> Parameters: admin(String)
+2021-05-20 10:32:30.600 [http-nio-8088-exec-4] DEBUG com.gbq.hospital.dao.LoginMapper.findByUsername - <==      Total: 1
+2021-05-20 10:32:44.474 [http-nio-8088-exec-3] DEBUG com.gbq.hospital.dao.LoginMapper.findByUsername - ==>  Preparing: select * from login where username=? 
+2021-05-20 10:32:44.487 [http-nio-8088-exec-3] DEBUG com.gbq.hospital.dao.LoginMapper.findByUsername - ==> Parameters: admin1(String)
+2021-05-20 10:32:44.488 [http-nio-8088-exec-3] DEBUG com.gbq.hospital.dao.LoginMapper.findByUsername - <==      Total: 1
+2021-05-20 10:32:44.489 [http-nio-8088-exec-3] DEBUG com.gbq.hospital.dao.LoginMapper.findByUsername - ==>  Preparing: select * from login where username=? 
+2021-05-20 10:32:44.490 [http-nio-8088-exec-3] DEBUG com.gbq.hospital.dao.LoginMapper.findByUsername - ==> Parameters: admin1(String)
+2021-05-20 10:32:44.490 [http-nio-8088-exec-3] DEBUG com.gbq.hospital.dao.LoginMapper.findByUsername - <==      Total: 1
+2021-05-20 10:32:55.002 [http-nio-8088-exec-7] DEBUG com.gbq.hospital.dao.LoginMapper.findByUsername - ==>  Preparing: select * from login where username=? 
+2021-05-20 10:32:55.003 [http-nio-8088-exec-7] DEBUG com.gbq.hospital.dao.LoginMapper.findByUsername - ==> Parameters: admin(String)
+2021-05-20 10:32:55.004 [http-nio-8088-exec-7] DEBUG com.gbq.hospital.dao.LoginMapper.findByUsername - <==      Total: 1
+2021-05-20 10:32:55.031 [http-nio-8088-exec-7] ERROR o.a.c.c.C.[.[localhost].[/].[dispatcherServlet] - Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is org.apache.shiro.authc.UnknownAccountException: 密码错误，请重新输入] with root cause
+org.apache.shiro.authc.UnknownAccountException: 密码错误，请重新输入
+	at com.gbq.hospital.config.shiro.MyShiroRealm.doGetAuthenticationInfo(MyShiroRealm.java:44)
+	at org.apache.shiro.realm.AuthenticatingRealm.getAuthenticationInfo(AuthenticatingRealm.java:568)
+	at org.apache.shiro.authc.pam.ModularRealmAuthenticator.doSingleRealmAuthentication(ModularRealmAuthenticator.java:180)
+	at org.apache.shiro.authc.pam.ModularRealmAuthenticator.doAuthenticate(ModularRealmAuthenticator.java:267)
+	at org.apache.shiro.authc.AbstractAuthenticator.authenticate(AbstractAuthenticator.java:198)
+	at org.apache.shiro.mgt.AuthenticatingSecurityManager.authenticate(AuthenticatingSecurityManager.java:106)
+	at org.apache.shiro.mgt.DefaultSecurityManager.login(DefaultSecurityManager.java:270)
+	at org.apache.shiro.subject.support.DelegatingSubject.login(DelegatingSubject.java:256)
+	at com.gbq.hospital.controller.LoginController.login(LoginController.java:72)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:189)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:138)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:102)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:892)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:797)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1038)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:942)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1005)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:908)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:660)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:882)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:741)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.shiro.web.servlet.ProxiedFilterChain.doFilter(ProxiedFilterChain.java:61)
+	at org.apache.shiro.web.servlet.AdviceFilter.executeChain(AdviceFilter.java:108)
+	at org.apache.shiro.web.servlet.AdviceFilter.doFilterInternal(AdviceFilter.java:137)
+	at org.apache.shiro.web.servlet.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:125)
+	at org.apache.shiro.web.servlet.ProxiedFilterChain.doFilter(ProxiedFilterChain.java:66)
+	at org.apache.shiro.web.servlet.AbstractShiroFilter.executeChain(AbstractShiroFilter.java:449)
+	at org.apache.shiro.web.servlet.AbstractShiroFilter$1.call(AbstractShiroFilter.java:365)
+	at org.apache.shiro.subject.support.SubjectCallable.doCall(SubjectCallable.java:90)
+	at org.apache.shiro.subject.support.SubjectCallable.call(SubjectCallable.java:83)
+	at org.apache.shiro.subject.support.DelegatingSubject.execute(DelegatingSubject.java:383)
+	at org.apache.shiro.web.servlet.AbstractShiroFilter.doFilterInternal(AbstractShiroFilter.java:362)
+	at org.apache.shiro.web.servlet.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:125)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:92)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:200)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:200)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:490)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:139)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:408)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:834)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1415)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1142)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:617)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:745)
+2021-05-20 10:33:04.439 [http-nio-8088-exec-8] DEBUG com.gbq.hospital.dao.LoginMapper.findByUsername - ==>  Preparing: select * from login where username=? 
+2021-05-20 10:33:04.440 [http-nio-8088-exec-8] DEBUG com.gbq.hospital.dao.LoginMapper.findByUsername - ==> Parameters: admin(String)
+2021-05-20 10:33:04.441 [http-nio-8088-exec-8] DEBUG com.gbq.hospital.dao.LoginMapper.findByUsername - <==      Total: 1
+2021-05-20 10:33:04.442 [http-nio-8088-exec-8] DEBUG com.gbq.hospital.dao.LoginMapper.findByUsername - ==>  Preparing: select * from login where username=? 
+2021-05-20 10:33:04.442 [http-nio-8088-exec-8] DEBUG com.gbq.hospital.dao.LoginMapper.findByUsername - ==> Parameters: admin(String)
+2021-05-20 10:33:04.443 [http-nio-8088-exec-8] DEBUG com.gbq.hospital.dao.LoginMapper.findByUsername - <==      Total: 1
+2021-05-20 10:35:27.636 [http-nio-8088-exec-10] DEBUG com.gbq.hospital.dao.LoginMapper.findByUsername - ==>  Preparing: select * from login where username=? 
+2021-05-20 10:35:27.640 [http-nio-8088-exec-10] DEBUG com.gbq.hospital.dao.LoginMapper.findByUsername - ==> Parameters: admin1(String)
+2021-05-20 10:35:27.641 [http-nio-8088-exec-10] DEBUG com.gbq.hospital.dao.LoginMapper.findByUsername - <==      Total: 1
+2021-05-20 10:35:27.642 [http-nio-8088-exec-10] DEBUG com.gbq.hospital.dao.LoginMapper.findByUsername - ==>  Preparing: select * from login where username=? 
+2021-05-20 10:35:27.642 [http-nio-8088-exec-10] DEBUG com.gbq.hospital.dao.LoginMapper.findByUsername - ==> Parameters: admin1(String)
+2021-05-20 10:35:27.643 [http-nio-8088-exec-10] DEBUG com.gbq.hospital.dao.LoginMapper.findByUsername - <==      Total: 1
+2021-05-20 10:36:14.930 [http-nio-8088-exec-4] DEBUG com.gbq.hospital.dao.LoginMapper.findByUsername - ==>  Preparing: select * from login where username=? 
+2021-05-20 10:36:14.930 [http-nio-8088-exec-4] DEBUG com.gbq.hospital.dao.LoginMapper.findByUsername - ==> Parameters: zhangsan(String)
+2021-05-20 10:36:14.931 [http-nio-8088-exec-4] DEBUG com.gbq.hospital.dao.LoginMapper.findByUsername - <==      Total: 1
+2021-05-20 10:36:14.932 [http-nio-8088-exec-4] DEBUG com.gbq.hospital.dao.LoginMapper.findByUsername - ==>  Preparing: select * from login where username=? 
+2021-05-20 10:36:14.932 [http-nio-8088-exec-4] DEBUG com.gbq.hospital.dao.LoginMapper.findByUsername - ==> Parameters: zhangsan(String)
+2021-05-20 10:36:14.933 [http-nio-8088-exec-4] DEBUG com.gbq.hospital.dao.LoginMapper.findByUsername - <==      Total: 1
+2021-05-20 10:36:17.183 [http-nio-8088-exec-5] DEBUG c.gbq.hospital.dao.DoctorMapper.getDoctorByLoginId - ==>  Preparing: select * from doctor where loginid=? 
+2021-05-20 10:36:17.183 [http-nio-8088-exec-5] DEBUG c.gbq.hospital.dao.DoctorMapper.getDoctorByLoginId - ==> Parameters: 3(Integer)
+2021-05-20 10:36:17.229 [http-nio-8088-exec-5] DEBUG c.gbq.hospital.dao.DoctorMapper.getDoctorByLoginId - <==      Total: 1
+2021-05-20 10:36:17.232 [http-nio-8088-exec-5] DEBUG c.g.h.dao.AppointmentMapper.selectByDoctorId - ==>  Preparing: select a.*,p.name as patientname,d.name as doctorname from appointment a left join patient p on a.patientid=p.id left join doctor d on d.id=a.doctorid where doctorid = ? order by a.id 
+2021-05-20 10:36:17.233 [http-nio-8088-exec-5] DEBUG c.g.h.dao.AppointmentMapper.selectByDoctorId - ==> Parameters: 1(Integer)
+2021-05-20 10:36:17.337 [http-nio-8088-exec-5] DEBUG c.g.h.dao.AppointmentMapper.selectByDoctorId - <==      Total: 5
+2021-05-20 10:36:18.644 [http-nio-8088-exec-6] DEBUG c.gbq.hospital.dao.DoctorMapper.getDoctorByLoginId - ==>  Preparing: select * from doctor where loginid=? 
+2021-05-20 10:36:18.647 [http-nio-8088-exec-6] DEBUG c.gbq.hospital.dao.DoctorMapper.getDoctorByLoginId - ==> Parameters: 3(Integer)
+2021-05-20 10:36:18.648 [http-nio-8088-exec-6] DEBUG c.gbq.hospital.dao.DoctorMapper.getDoctorByLoginId - <==      Total: 1
+2021-05-20 10:36:18.649 [http-nio-8088-exec-6] DEBUG c.g.h.dao.AppointmentMapper.selectByDoctorId - ==>  Preparing: select a.*,p.name as patientname,d.name as doctorname from appointment a left join patient p on a.patientid=p.id left join doctor d on d.id=a.doctorid where doctorid = ? order by a.id 
+2021-05-20 10:36:18.649 [http-nio-8088-exec-6] DEBUG c.g.h.dao.AppointmentMapper.selectByDoctorId - ==> Parameters: 1(Integer)
+2021-05-20 10:36:18.650 [http-nio-8088-exec-6] DEBUG c.g.h.dao.AppointmentMapper.selectByDoctorId - <==      Total: 5
+2021-05-20 10:36:19.532 [http-nio-8088-exec-7] DEBUG c.gbq.hospital.dao.DoctorMapper.getDoctorByLoginId - ==>  Preparing: select * from doctor where loginid=? 
+2021-05-20 10:36:19.533 [http-nio-8088-exec-7] DEBUG c.gbq.hospital.dao.DoctorMapper.getDoctorByLoginId - ==> Parameters: 3(Integer)
+2021-05-20 10:36:19.534 [http-nio-8088-exec-7] DEBUG c.gbq.hospital.dao.DoctorMapper.getDoctorByLoginId - <==      Total: 1
+2021-05-20 10:36:19.535 [http-nio-8088-exec-7] DEBUG c.g.h.dao.AppointmentMapper.selectByDoctorId - ==>  Preparing: select a.*,p.name as patientname,d.name as doctorname from appointment a left join patient p on a.patientid=p.id left join doctor d on d.id=a.doctorid where doctorid = ? order by a.id 
+2021-05-20 10:36:19.535 [http-nio-8088-exec-7] DEBUG c.g.h.dao.AppointmentMapper.selectByDoctorId - ==> Parameters: 1(Integer)
+2021-05-20 10:36:19.541 [http-nio-8088-exec-7] DEBUG c.g.h.dao.AppointmentMapper.selectByDoctorId - <==      Total: 5
+2021-05-20 10:36:32.806 [http-nio-8088-exec-10] DEBUG com.gbq.hospital.dao.LoginMapper.findByUsername - ==>  Preparing: select * from login where username=? 
+2021-05-20 10:36:32.818 [http-nio-8088-exec-10] DEBUG com.gbq.hospital.dao.LoginMapper.findByUsername - ==> Parameters: zhaoone(String)
+2021-05-20 10:36:32.819 [http-nio-8088-exec-10] DEBUG com.gbq.hospital.dao.LoginMapper.findByUsername - <==      Total: 1
+2021-05-20 10:36:32.820 [http-nio-8088-exec-10] DEBUG com.gbq.hospital.dao.LoginMapper.findByUsername - ==>  Preparing: select * from login where username=? 
+2021-05-20 10:36:32.820 [http-nio-8088-exec-10] DEBUG com.gbq.hospital.dao.LoginMapper.findByUsername - ==> Parameters: zhaoone(String)
+2021-05-20 10:36:32.821 [http-nio-8088-exec-10] DEBUG com.gbq.hospital.dao.LoginMapper.findByUsername - <==      Total: 1
+2021-05-20 10:36:34.900 [http-nio-8088-exec-2] DEBUG c.g.h.dao.PatientMapper.findPatientByLoginId - ==>  Preparing: select * from patient where loginid=? 
+2021-05-20 10:36:34.900 [http-nio-8088-exec-2] DEBUG c.g.h.dao.PatientMapper.findPatientByLoginId - ==> Parameters: 5(Integer)
+2021-05-20 10:36:34.901 [http-nio-8088-exec-2] DEBUG c.g.h.dao.PatientMapper.findPatientByLoginId - <==      Total: 1
+2021-05-20 10:36:34.902 [http-nio-8088-exec-2] DEBUG c.g.h.dao.MedicalhistoryMapper.selectByPatientId - ==>  Preparing: select m.*,p.name as patientname,d.name as doctorname from Medicalhistory m left join patient p on p.id=m.patientid left join doctor d on m.doctorid=d.id where patientid = ? 
+2021-05-20 10:36:34.902 [http-nio-8088-exec-2] DEBUG c.g.h.dao.MedicalhistoryMapper.selectByPatientId - ==> Parameters: 1(Integer)
+2021-05-20 10:36:34.904 [http-nio-8088-exec-2] DEBUG c.g.h.dao.MedicalhistoryMapper.selectByPatientId - <==      Total: 2
+2021-05-20 10:36:35.867 [http-nio-8088-exec-4] DEBUG c.g.h.dao.PatientMapper.findPatientByLoginId - ==>  Preparing: select * from patient where loginid=? 
+2021-05-20 10:36:35.868 [http-nio-8088-exec-4] DEBUG c.g.h.dao.PatientMapper.findPatientByLoginId - ==> Parameters: 5(Integer)
+2021-05-20 10:36:35.869 [http-nio-8088-exec-4] DEBUG c.g.h.dao.PatientMapper.findPatientByLoginId - <==      Total: 1
+2021-05-20 10:36:35.869 [http-nio-8088-exec-4] DEBUG c.g.h.d.H.findTheLastHospitalization - ==>  Preparing: SELECT h.*,p.name as patientname from hospitalization h left join patient p on p.id=h.patientid where h.id=?; 
+2021-05-20 10:36:35.870 [http-nio-8088-exec-4] DEBUG c.g.h.d.H.findTheLastHospitalization - ==> Parameters: 1(Integer)
+2021-05-20 10:36:35.878 [http-nio-8088-exec-4] DEBUG c.g.h.d.H.findTheLastHospitalization - <==      Total: 1
+2021-05-20 10:36:35.879 [http-nio-8088-exec-4] DEBUG c.g.h.d.H.findOtherHospitalization - ==>  Preparing: SELECT h.*,p.name as patientname from hospitalization h left join patient p on p.id=h.patientid where h.id <> ? and patientid=?; 
+2021-05-20 10:36:35.879 [http-nio-8088-exec-4] DEBUG c.g.h.d.H.findOtherHospitalization - ==> Parameters: 1(Integer), 1(Integer)
+2021-05-20 10:36:35.917 [http-nio-8088-exec-4] DEBUG c.g.h.d.H.findOtherHospitalization - <==      Total: 0
+2021-05-20 10:36:38.116 [http-nio-8088-exec-3] DEBUG c.g.h.dao.PatientMapper.findPatientByLoginId - ==>  Preparing: select * from patient where loginid=? 
+2021-05-20 10:36:38.117 [http-nio-8088-exec-3] DEBUG c.g.h.dao.PatientMapper.findPatientByLoginId - ==> Parameters: 5(Integer)
+2021-05-20 10:36:38.118 [http-nio-8088-exec-3] DEBUG c.g.h.dao.PatientMapper.findPatientByLoginId - <==      Total: 1
+2021-05-20 10:36:38.118 [http-nio-8088-exec-3] DEBUG c.g.h.dao.MedicalhistoryMapper.selectByPatientId - ==>  Preparing: select m.*,p.name as patientname,d.name as doctorname from Medicalhistory m left join patient p on p.id=m.patientid left join doctor d on m.doctorid=d.id where patientid = ? 
+2021-05-20 10:36:38.118 [http-nio-8088-exec-3] DEBUG c.g.h.dao.MedicalhistoryMapper.selectByPatientId - ==> Parameters: 1(Integer)
+2021-05-20 10:36:38.119 [http-nio-8088-exec-3] DEBUG c.g.h.dao.MedicalhistoryMapper.selectByPatientId - <==      Total: 2
+2021-05-20 10:36:40.952 [http-nio-8088-exec-5] DEBUG c.g.h.dao.PatientMapper.findPatientByLoginId - ==>  Preparing: select * from patient where loginid=? 
+2021-05-20 10:36:40.953 [http-nio-8088-exec-5] DEBUG c.g.h.dao.PatientMapper.findPatientByLoginId - ==> Parameters: 5(Integer)
+2021-05-20 10:36:40.953 [http-nio-8088-exec-5] DEBUG c.g.h.dao.PatientMapper.findPatientByLoginId - <==      Total: 1
+2021-05-20 10:36:40.954 [http-nio-8088-exec-5] DEBUG c.g.h.d.H.findTheLastHospitalization - ==>  Preparing: SELECT h.*,p.name as patientname from hospitalization h left join patient p on p.id=h.patientid where h.id=?; 
+2021-05-20 10:36:40.955 [http-nio-8088-exec-5] DEBUG c.g.h.d.H.findTheLastHospitalization - ==> Parameters: 1(Integer)
+2021-05-20 10:36:40.955 [http-nio-8088-exec-5] DEBUG c.g.h.d.H.findTheLastHospitalization - <==      Total: 1
+2021-05-20 10:36:40.956 [http-nio-8088-exec-5] DEBUG c.g.h.d.H.findOtherHospitalization - ==>  Preparing: SELECT h.*,p.name as patientname from hospitalization h left join patient p on p.id=h.patientid where h.id <> ? and patientid=?; 
+2021-05-20 10:36:40.956 [http-nio-8088-exec-5] DEBUG c.g.h.d.H.findOtherHospitalization - ==> Parameters: 1(Integer), 1(Integer)
+2021-05-20 10:36:40.957 [http-nio-8088-exec-5] DEBUG c.g.h.d.H.findOtherHospitalization - <==      Total: 0
+2021-05-20 10:36:42.774 [http-nio-8088-exec-6] DEBUG c.g.h.dao.PatientMapper.findPatientByLoginId - ==>  Preparing: select * from patient where loginid=? 
+2021-05-20 10:36:42.774 [http-nio-8088-exec-6] DEBUG c.g.h.dao.PatientMapper.findPatientByLoginId - ==> Parameters: 5(Integer)
+2021-05-20 10:36:42.775 [http-nio-8088-exec-6] DEBUG c.g.h.dao.PatientMapper.findPatientByLoginId - <==      Total: 1
+2021-05-20 10:36:42.776 [http-nio-8088-exec-6] DEBUG com.gbq.hospital.dao.DoctorMapper.getAll - ==>  Preparing: select * from doctor where 1=1 order by id 
+2021-05-20 10:36:42.776 [http-nio-8088-exec-6] DEBUG com.gbq.hospital.dao.DoctorMapper.getAll - ==> Parameters: 
+2021-05-20 10:36:42.778 [http-nio-8088-exec-6] DEBUG com.gbq.hospital.dao.DoctorMapper.getAll - <==      Total: 4
+2021-05-20 10:36:47.173 [http-nio-8088-exec-8] DEBUG c.g.h.dao.PatientMapper.findPatientByLoginId - ==>  Preparing: select * from patient where loginid=? 
+2021-05-20 10:36:47.176 [http-nio-8088-exec-8] DEBUG c.g.h.dao.PatientMapper.findPatientByLoginId - ==> Parameters: 5(Integer)
+2021-05-20 10:36:47.178 [http-nio-8088-exec-8] DEBUG c.g.h.dao.PatientMapper.findPatientByLoginId - <==      Total: 1
+2021-05-20 10:36:47.178 [http-nio-8088-exec-8] DEBUG com.gbq.hospital.dao.DoctorMapper.getAll - ==>  Preparing: select * from doctor where 1=1 order by id 
+2021-05-20 10:36:47.178 [http-nio-8088-exec-8] DEBUG com.gbq.hospital.dao.DoctorMapper.getAll - ==> Parameters: 
+2021-05-20 10:36:47.179 [http-nio-8088-exec-8] DEBUG com.gbq.hospital.dao.DoctorMapper.getAll - <==      Total: 4
+2021-05-20 10:36:47.612 [http-nio-8088-exec-9] DEBUG c.g.h.dao.PatientMapper.findPatientByLoginId - ==>  Preparing: select * from patient where loginid=? 
+2021-05-20 10:36:47.612 [http-nio-8088-exec-9] DEBUG c.g.h.dao.PatientMapper.findPatientByLoginId - ==> Parameters: 5(Integer)
+2021-05-20 10:36:47.613 [http-nio-8088-exec-9] DEBUG c.g.h.dao.PatientMapper.findPatientByLoginId - <==      Total: 1
+2021-05-20 10:36:47.613 [http-nio-8088-exec-9] DEBUG c.g.h.d.H.findTheLastHospitalization - ==>  Preparing: SELECT h.*,p.name as patientname from hospitalization h left join patient p on p.id=h.patientid where h.id=?; 
+2021-05-20 10:36:47.613 [http-nio-8088-exec-9] DEBUG c.g.h.d.H.findTheLastHospitalization - ==> Parameters: 1(Integer)
+2021-05-20 10:36:47.614 [http-nio-8088-exec-9] DEBUG c.g.h.d.H.findTheLastHospitalization - <==      Total: 1
+2021-05-20 10:36:47.614 [http-nio-8088-exec-9] DEBUG c.g.h.d.H.findOtherHospitalization - ==>  Preparing: SELECT h.*,p.name as patientname from hospitalization h left join patient p on p.id=h.patientid where h.id <> ? and patientid=?; 
+2021-05-20 10:36:47.615 [http-nio-8088-exec-9] DEBUG c.g.h.d.H.findOtherHospitalization - ==> Parameters: 1(Integer), 1(Integer)
+2021-05-20 10:36:47.615 [http-nio-8088-exec-9] DEBUG c.g.h.d.H.findOtherHospitalization - <==      Total: 0
+2021-05-20 10:36:48.680 [http-nio-8088-exec-10] DEBUG c.g.h.dao.PatientMapper.findPatientByLoginId - ==>  Preparing: select * from patient where loginid=? 
+2021-05-20 10:36:48.680 [http-nio-8088-exec-10] DEBUG c.g.h.dao.PatientMapper.findPatientByLoginId - ==> Parameters: 5(Integer)
+2021-05-20 10:36:48.681 [http-nio-8088-exec-10] DEBUG c.g.h.dao.PatientMapper.findPatientByLoginId - <==      Total: 1
+2021-05-20 10:36:48.681 [http-nio-8088-exec-10] DEBUG c.g.h.dao.MedicalhistoryMapper.selectByPatientId - ==>  Preparing: select m.*,p.name as patientname,d.name as doctorname from Medicalhistory m left join patient p on p.id=m.patientid left join doctor d on m.doctorid=d.id where patientid = ? 
+2021-05-20 10:36:48.681 [http-nio-8088-exec-10] DEBUG c.g.h.dao.MedicalhistoryMapper.selectByPatientId - ==> Parameters: 1(Integer)
+2021-05-20 10:36:48.682 [http-nio-8088-exec-10] DEBUG c.g.h.dao.MedicalhistoryMapper.selectByPatientId - <==      Total: 2
+2021-05-20 10:36:50.762 [http-nio-8088-exec-2] DEBUG c.g.h.dao.PatientMapper.findPatientByLoginId - ==>  Preparing: select * from patient where loginid=? 
+2021-05-20 10:36:50.762 [http-nio-8088-exec-2] DEBUG c.g.h.dao.PatientMapper.findPatientByLoginId - ==> Parameters: 5(Integer)
+2021-05-20 10:36:50.763 [http-nio-8088-exec-2] DEBUG c.g.h.dao.PatientMapper.findPatientByLoginId - <==      Total: 1
+2021-05-20 10:36:50.764 [http-nio-8088-exec-2] DEBUG c.g.h.dao.MedicalhistoryMapper.selectByPatientId - ==>  Preparing: select m.*,p.name as patientname,d.name as doctorname from Medicalhistory m left join patient p on p.id=m.patientid left join doctor d on m.doctorid=d.id where patientid = ? 
+2021-05-20 10:36:50.764 [http-nio-8088-exec-2] DEBUG c.g.h.dao.MedicalhistoryMapper.selectByPatientId - ==> Parameters: 1(Integer)
+2021-05-20 10:36:50.765 [http-nio-8088-exec-2] DEBUG c.g.h.dao.MedicalhistoryMapper.selectByPatientId - <==      Total: 2
+2021-05-20 10:37:59.872 [http-nio-8088-exec-5] DEBUG c.g.h.dao.PatientMapper.findPatientByLoginId - ==>  Preparing: select * from patient where loginid=? 
+2021-05-20 10:37:59.875 [http-nio-8088-exec-5] DEBUG c.g.h.dao.PatientMapper.findPatientByLoginId - ==> Parameters: 5(Integer)
+2021-05-20 10:37:59.876 [http-nio-8088-exec-5] DEBUG c.g.h.dao.PatientMapper.findPatientByLoginId - <==      Total: 1
+2021-05-20 10:37:59.876 [http-nio-8088-exec-5] DEBUG c.g.h.dao.MedicalhistoryMapper.selectByPatientId - ==>  Preparing: select m.*,p.name as patientname,d.name as doctorname from Medicalhistory m left join patient p on p.id=m.patientid left join doctor d on m.doctorid=d.id where patientid = ? 
+2021-05-20 10:37:59.877 [http-nio-8088-exec-5] DEBUG c.g.h.dao.MedicalhistoryMapper.selectByPatientId - ==> Parameters: 1(Integer)
+2021-05-20 10:37:59.878 [http-nio-8088-exec-5] DEBUG c.g.h.dao.MedicalhistoryMapper.selectByPatientId - <==      Total: 2
+2021-05-20 10:38:02.493 [http-nio-8088-exec-6] DEBUG c.g.h.dao.PatientMapper.findPatientByLoginId - ==>  Preparing: select * from patient where loginid=? 
+2021-05-20 10:38:02.493 [http-nio-8088-exec-6] DEBUG c.g.h.dao.PatientMapper.findPatientByLoginId - ==> Parameters: 5(Integer)
+2021-05-20 10:38:02.495 [http-nio-8088-exec-6] DEBUG c.g.h.dao.PatientMapper.findPatientByLoginId - <==      Total: 1
+2021-05-20 10:38:02.495 [http-nio-8088-exec-6] DEBUG c.g.h.d.H.findTheLastHospitalization - ==>  Preparing: SELECT h.*,p.name as patientname from hospitalization h left join patient p on p.id=h.patientid where h.id=?; 
+2021-05-20 10:38:02.495 [http-nio-8088-exec-6] DEBUG c.g.h.d.H.findTheLastHospitalization - ==> Parameters: 1(Integer)
+2021-05-20 10:38:02.497 [http-nio-8088-exec-6] DEBUG c.g.h.d.H.findTheLastHospitalization - <==      Total: 1
+2021-05-20 10:38:02.497 [http-nio-8088-exec-6] DEBUG c.g.h.d.H.findOtherHospitalization - ==>  Preparing: SELECT h.*,p.name as patientname from hospitalization h left join patient p on p.id=h.patientid where h.id <> ? and patientid=?; 
+2021-05-20 10:38:02.498 [http-nio-8088-exec-6] DEBUG c.g.h.d.H.findOtherHospitalization - ==> Parameters: 1(Integer), 1(Integer)
+2021-05-20 10:38:02.499 [http-nio-8088-exec-6] DEBUG c.g.h.d.H.findOtherHospitalization - <==      Total: 0
+2021-05-20 10:38:09.974 [http-nio-8088-exec-7] DEBUG c.g.h.dao.PatientMapper.findPatientByLoginId - ==>  Preparing: select * from patient where loginid=? 
+2021-05-20 10:38:09.974 [http-nio-8088-exec-7] DEBUG c.g.h.dao.PatientMapper.findPatientByLoginId - ==> Parameters: 5(Integer)
+2021-05-20 10:38:09.976 [http-nio-8088-exec-7] DEBUG c.g.h.dao.PatientMapper.findPatientByLoginId - <==      Total: 1
+2021-05-20 10:38:09.976 [http-nio-8088-exec-7] DEBUG com.gbq.hospital.dao.DoctorMapper.getAll - ==>  Preparing: select * from doctor where 1=1 order by id 
+2021-05-20 10:38:09.977 [http-nio-8088-exec-7] DEBUG com.gbq.hospital.dao.DoctorMapper.getAll - ==> Parameters: 
+2021-05-20 10:38:09.977 [http-nio-8088-exec-7] DEBUG com.gbq.hospital.dao.DoctorMapper.getAll - <==      Total: 4
+2021-05-20 10:38:21.437 [http-nio-8088-exec-10] DEBUG com.gbq.hospital.dao.LoginMapper.findByUsername - ==>  Preparing: select * from login where username=? 
+2021-05-20 10:38:21.437 [http-nio-8088-exec-10] DEBUG com.gbq.hospital.dao.LoginMapper.findByUsername - ==> Parameters: zhangsan(String)
+2021-05-20 10:38:21.438 [http-nio-8088-exec-10] DEBUG com.gbq.hospital.dao.LoginMapper.findByUsername - <==      Total: 1
+2021-05-20 10:38:21.438 [http-nio-8088-exec-10] DEBUG com.gbq.hospital.dao.LoginMapper.findByUsername - ==>  Preparing: select * from login where username=? 
+2021-05-20 10:38:21.439 [http-nio-8088-exec-10] DEBUG com.gbq.hospital.dao.LoginMapper.findByUsername - ==> Parameters: zhangsan(String)
+2021-05-20 10:38:21.439 [http-nio-8088-exec-10] DEBUG com.gbq.hospital.dao.LoginMapper.findByUsername - <==      Total: 1
+2021-05-20 10:38:27.266 [http-nio-8088-exec-2] DEBUG c.gbq.hospital.dao.DoctorMapper.getDoctorByLoginId - ==>  Preparing: select * from doctor where loginid=? 
+2021-05-20 10:38:27.267 [http-nio-8088-exec-2] DEBUG c.gbq.hospital.dao.DoctorMapper.getDoctorByLoginId - ==> Parameters: 3(Integer)
+2021-05-20 10:38:27.269 [http-nio-8088-exec-2] DEBUG c.gbq.hospital.dao.DoctorMapper.getDoctorByLoginId - <==      Total: 1
+2021-05-20 10:38:27.269 [http-nio-8088-exec-2] DEBUG c.g.h.dao.AppointmentMapper.selectByDoctorId - ==>  Preparing: select a.*,p.name as patientname,d.name as doctorname from appointment a left join patient p on a.patientid=p.id left join doctor d on d.id=a.doctorid where doctorid = ? order by a.id 
+2021-05-20 10:38:27.270 [http-nio-8088-exec-2] DEBUG c.g.h.dao.AppointmentMapper.selectByDoctorId - ==> Parameters: 1(Integer)
+2021-05-20 10:38:27.272 [http-nio-8088-exec-2] DEBUG c.g.h.dao.AppointmentMapper.selectByDoctorId - <==      Total: 5
+2021-05-20 10:38:34.685 [http-nio-8088-exec-3] DEBUG c.g.hospital.dao.PatientMapper.selectByPrimaryKey - ==>  Preparing: select * from patient where id = ? 
+2021-05-20 10:38:34.685 [http-nio-8088-exec-3] DEBUG c.g.hospital.dao.PatientMapper.selectByPrimaryKey - ==> Parameters: 4(Integer)
+2021-05-20 10:38:34.686 [http-nio-8088-exec-3] DEBUG c.g.hospital.dao.PatientMapper.selectByPrimaryKey - <==      Total: 1
+2021-05-20 10:38:34.687 [http-nio-8088-exec-3] DEBUG c.gbq.hospital.dao.LoginMapper.selectByPrimaryKey - ==>  Preparing: select id, username, password,role from login where id = ? 
+2021-05-20 10:38:34.687 [http-nio-8088-exec-3] DEBUG c.gbq.hospital.dao.LoginMapper.selectByPrimaryKey - ==> Parameters: 8(Integer)
+2021-05-20 10:38:34.688 [http-nio-8088-exec-3] DEBUG c.gbq.hospital.dao.LoginMapper.selectByPrimaryKey - <==      Total: 1
+2021-05-20 10:38:34.689 [http-nio-8088-exec-3] DEBUG com.gbq.hospital.dao.DrugsMapper.findAll - ==>  Preparing: select * from drugs where 1=1 
+2021-05-20 10:38:34.689 [http-nio-8088-exec-3] DEBUG com.gbq.hospital.dao.DrugsMapper.findAll - ==> Parameters: 
+2021-05-20 10:38:34.691 [http-nio-8088-exec-3] DEBUG com.gbq.hospital.dao.DrugsMapper.findAll - <==      Total: 7
+2021-05-20 10:40:15.939 [http-nio-8088-exec-8] DEBUG com.gbq.hospital.dao.LoginMapper.findByUsername - ==>  Preparing: select * from login where username=? 
+2021-05-20 10:40:15.940 [http-nio-8088-exec-8] DEBUG com.gbq.hospital.dao.LoginMapper.findByUsername - ==> Parameters: admin1(String)
+2021-05-20 10:40:15.940 [http-nio-8088-exec-8] DEBUG com.gbq.hospital.dao.LoginMapper.findByUsername - <==      Total: 1
+2021-05-20 10:40:15.940 [http-nio-8088-exec-8] DEBUG com.gbq.hospital.dao.LoginMapper.findByUsername - ==>  Preparing: select * from login where username=? 
+2021-05-20 10:40:15.941 [http-nio-8088-exec-8] DEBUG com.gbq.hospital.dao.LoginMapper.findByUsername - ==> Parameters: admin1(String)
+2021-05-20 10:40:15.941 [http-nio-8088-exec-8] DEBUG com.gbq.hospital.dao.LoginMapper.findByUsername - <==      Total: 1
+2021-05-20 10:40:28.610 [http-nio-8088-exec-1] DEBUG com.gbq.hospital.dao.AppointmentMapper.findAll - ==>  Preparing: select a.*,p.name as patientname,d.name as doctorname,d.department as department from appointment a left join patient p on a.patientid=p.id left join doctor d on d.id=a.doctorid where 1=1 order by a.id 
+2021-05-20 10:40:28.610 [http-nio-8088-exec-1] DEBUG com.gbq.hospital.dao.AppointmentMapper.findAll - ==> Parameters: 
+2021-05-20 10:40:28.668 [http-nio-8088-exec-1] DEBUG com.gbq.hospital.dao.AppointmentMapper.findAll - <==      Total: 11
+2021-05-20 10:41:13.632 [http-nio-8088-exec-2] DEBUG com.gbq.hospital.dao.DoctorMapper.getAll - ==>  Preparing: select * from doctor where 1=1 order by id 
+2021-05-20 10:41:13.643 [http-nio-8088-exec-2] DEBUG com.gbq.hospital.dao.DoctorMapper.getAll - ==> Parameters: 
+2021-05-20 10:41:13.644 [http-nio-8088-exec-2] DEBUG com.gbq.hospital.dao.DoctorMapper.getAll - <==      Total: 4
+2021-05-20 10:41:16.762 [http-nio-8088-exec-3] DEBUG com.gbq.hospital.dao.PatientMapper.findAll - ==>  Preparing: select p.*,d.name as doctorname from patient p left join appointment a on p.appointmentid=a.id left join doctor d on d.id=a.doctorid where 1=1 order by p.id 
+2021-05-20 10:41:16.763 [http-nio-8088-exec-3] DEBUG com.gbq.hospital.dao.PatientMapper.findAll - ==> Parameters: 
+2021-05-20 10:41:16.807 [http-nio-8088-exec-3] DEBUG com.gbq.hospital.dao.PatientMapper.findAll - <==      Total: 5
+2021-05-20 10:41:19.067 [http-nio-8088-exec-5] DEBUG com.gbq.hospital.dao.DrugsMapper.findAll - ==>  Preparing: select * from drugs where 1=1 
+2021-05-20 10:41:19.067 [http-nio-8088-exec-5] DEBUG com.gbq.hospital.dao.DrugsMapper.findAll - ==> Parameters: 
+2021-05-20 10:41:19.068 [http-nio-8088-exec-5] DEBUG com.gbq.hospital.dao.DrugsMapper.findAll - <==      Total: 7
+2021-05-20 10:41:25.840 [http-nio-8088-exec-6] DEBUG com.gbq.hospital.dao.AppointmentMapper.findAll - ==>  Preparing: select a.*,p.name as patientname,d.name as doctorname,d.department as department from appointment a left join patient p on a.patientid=p.id left join doctor d on d.id=a.doctorid where 1=1 order by a.id 
+2021-05-20 10:41:25.840 [http-nio-8088-exec-6] DEBUG com.gbq.hospital.dao.AppointmentMapper.findAll - ==> Parameters: 
+2021-05-20 10:41:25.842 [http-nio-8088-exec-6] DEBUG com.gbq.hospital.dao.AppointmentMapper.findAll - <==      Total: 11
+2021-05-20 10:41:29.226 [http-nio-8088-exec-7] DEBUG com.gbq.hospital.dao.MedicalhistoryMapper.findAll - ==>  Preparing: select m.*,p.name as patientname,d.name as doctorname from Medicalhistory m left join patient p on p.id=m.patientid left join doctor d on m.doctorid=d.id where 1=1 order by m.id 
+2021-05-20 10:41:29.227 [http-nio-8088-exec-7] DEBUG com.gbq.hospital.dao.MedicalhistoryMapper.findAll - ==> Parameters: 
+2021-05-20 10:41:29.228 [http-nio-8088-exec-7] DEBUG com.gbq.hospital.dao.MedicalhistoryMapper.findAll - <==      Total: 5
+2021-05-20 10:41:43.917 [http-nio-8088-exec-8] DEBUG com.gbq.hospital.dao.LoginMapper.findAllAdmin - ==>  Preparing: select * from login where role=1 
+2021-05-20 10:41:43.922 [http-nio-8088-exec-8] DEBUG com.gbq.hospital.dao.LoginMapper.findAllAdmin - ==> Parameters: 
+2021-05-20 10:41:43.923 [http-nio-8088-exec-8] DEBUG com.gbq.hospital.dao.LoginMapper.findAllAdmin - <==      Total: 6
+2021-05-20 10:42:23.292 [http-nio-8088-exec-1] DEBUG com.gbq.hospital.dao.LoginMapper.findByUsername - ==>  Preparing: select * from login where username=? 
+2021-05-20 10:42:23.305 [http-nio-8088-exec-1] DEBUG com.gbq.hospital.dao.LoginMapper.findByUsername - ==> Parameters: zhangsan(String)
+2021-05-20 10:42:23.306 [http-nio-8088-exec-1] DEBUG com.gbq.hospital.dao.LoginMapper.findByUsername - <==      Total: 1
+2021-05-20 10:42:23.306 [http-nio-8088-exec-1] DEBUG com.gbq.hospital.dao.LoginMapper.findByUsername - ==>  Preparing: select * from login where username=? 
+2021-05-20 10:42:23.306 [http-nio-8088-exec-1] DEBUG com.gbq.hospital.dao.LoginMapper.findByUsername - ==> Parameters: zhangsan(String)
+2021-05-20 10:42:23.307 [http-nio-8088-exec-1] DEBUG com.gbq.hospital.dao.LoginMapper.findByUsername - <==      Total: 1
+2021-05-20 10:43:15.527 [http-nio-8088-exec-4] DEBUG c.gbq.hospital.dao.DoctorMapper.getDoctorByLoginId - ==>  Preparing: select * from doctor where loginid=? 
+2021-05-20 10:43:15.537 [http-nio-8088-exec-4] DEBUG c.gbq.hospital.dao.DoctorMapper.getDoctorByLoginId - ==> Parameters: 3(Integer)
+2021-05-20 10:43:15.538 [http-nio-8088-exec-4] DEBUG c.gbq.hospital.dao.DoctorMapper.getDoctorByLoginId - <==      Total: 1
+2021-05-20 10:43:15.538 [http-nio-8088-exec-4] DEBUG c.g.h.dao.AppointmentMapper.selectByDoctorId - ==>  Preparing: select a.*,p.name as patientname,d.name as doctorname from appointment a left join patient p on a.patientid=p.id left join doctor d on d.id=a.doctorid where doctorid = ? order by a.id 
+2021-05-20 10:43:15.538 [http-nio-8088-exec-4] DEBUG c.g.h.dao.AppointmentMapper.selectByDoctorId - ==> Parameters: 1(Integer)
+2021-05-20 10:43:15.539 [http-nio-8088-exec-4] DEBUG c.g.h.dao.AppointmentMapper.selectByDoctorId - <==      Total: 5
+2021-05-20 10:43:35.968 [http-nio-8088-exec-6] DEBUG com.gbq.hospital.dao.LoginMapper.findByUsername - ==>  Preparing: select * from login where username=? 
+2021-05-20 10:43:35.968 [http-nio-8088-exec-6] DEBUG com.gbq.hospital.dao.LoginMapper.findByUsername - ==> Parameters: zhaoone(String)
+2021-05-20 10:43:35.968 [http-nio-8088-exec-6] DEBUG com.gbq.hospital.dao.LoginMapper.findByUsername - <==      Total: 1
+2021-05-20 10:43:35.969 [http-nio-8088-exec-6] DEBUG com.gbq.hospital.dao.LoginMapper.findByUsername - ==>  Preparing: select * from login where username=? 
+2021-05-20 10:43:35.969 [http-nio-8088-exec-6] DEBUG com.gbq.hospital.dao.LoginMapper.findByUsername - ==> Parameters: zhaoone(String)
+2021-05-20 10:43:35.969 [http-nio-8088-exec-6] DEBUG com.gbq.hospital.dao.LoginMapper.findByUsername - <==      Total: 1
+2021-05-20 10:43:40.345 [http-nio-8088-exec-8] DEBUG c.g.h.dao.PatientMapper.findPatientByLoginId - ==>  Preparing: select * from patient where loginid=? 
+2021-05-20 10:43:40.360 [http-nio-8088-exec-8] DEBUG c.g.h.dao.PatientMapper.findPatientByLoginId - ==> Parameters: 5(Integer)
+2021-05-20 10:43:40.361 [http-nio-8088-exec-8] DEBUG c.g.h.dao.PatientMapper.findPatientByLoginId - <==      Total: 1
+2021-05-20 10:43:40.361 [http-nio-8088-exec-8] DEBUG c.g.h.dao.MedicalhistoryMapper.selectByPatientId - ==>  Preparing: select m.*,p.name as patientname,d.name as doctorname from Medicalhistory m left join patient p on p.id=m.patientid left join doctor d on m.doctorid=d.id where patientid = ? 
+2021-05-20 10:43:40.361 [http-nio-8088-exec-8] DEBUG c.g.h.dao.MedicalhistoryMapper.selectByPatientId - ==> Parameters: 1(Integer)
+2021-05-20 10:43:40.363 [http-nio-8088-exec-8] DEBUG c.g.h.dao.MedicalhistoryMapper.selectByPatientId - <==      Total: 2
+2021-05-20 10:43:40.773 [http-nio-8088-exec-9] DEBUG c.g.h.dao.PatientMapper.findPatientByLoginId - ==>  Preparing: select * from patient where loginid=? 
+2021-05-20 10:43:40.773 [http-nio-8088-exec-9] DEBUG c.g.h.dao.PatientMapper.findPatientByLoginId - ==> Parameters: 5(Integer)
+2021-05-20 10:43:40.773 [http-nio-8088-exec-9] DEBUG c.g.h.dao.PatientMapper.findPatientByLoginId - <==      Total: 1
+2021-05-20 10:43:40.774 [http-nio-8088-exec-9] DEBUG c.g.h.d.H.findTheLastHospitalization - ==>  Preparing: SELECT h.*,p.name as patientname from hospitalization h left join patient p on p.id=h.patientid where h.id=?; 
+2021-05-20 10:43:40.774 [http-nio-8088-exec-9] DEBUG c.g.h.d.H.findTheLastHospitalization - ==> Parameters: 1(Integer)
+2021-05-20 10:43:40.774 [http-nio-8088-exec-9] DEBUG c.g.h.d.H.findTheLastHospitalization - <==      Total: 1
+2021-05-20 10:43:40.774 [http-nio-8088-exec-9] DEBUG c.g.h.d.H.findOtherHospitalization - ==>  Preparing: SELECT h.*,p.name as patientname from hospitalization h left join patient p on p.id=h.patientid where h.id <> ? and patientid=?; 
+2021-05-20 10:43:40.775 [http-nio-8088-exec-9] DEBUG c.g.h.d.H.findOtherHospitalization - ==> Parameters: 1(Integer), 1(Integer)
+2021-05-20 10:43:40.775 [http-nio-8088-exec-9] DEBUG c.g.h.d.H.findOtherHospitalization - <==      Total: 0
+2021-05-20 10:43:41.502 [http-nio-8088-exec-10] DEBUG c.g.h.dao.PatientMapper.findPatientByLoginId - ==>  Preparing: select * from patient where loginid=? 
+2021-05-20 10:43:41.502 [http-nio-8088-exec-10] DEBUG c.g.h.dao.PatientMapper.findPatientByLoginId - ==> Parameters: 5(Integer)
+2021-05-20 10:43:41.503 [http-nio-8088-exec-10] DEBUG c.g.h.dao.PatientMapper.findPatientByLoginId - <==      Total: 1
+2021-05-20 10:43:41.503 [http-nio-8088-exec-10] DEBUG com.gbq.hospital.dao.DoctorMapper.getAll - ==>  Preparing: select * from doctor where 1=1 order by id 
+2021-05-20 10:43:41.503 [http-nio-8088-exec-10] DEBUG com.gbq.hospital.dao.DoctorMapper.getAll - ==> Parameters: 
+2021-05-20 10:43:41.504 [http-nio-8088-exec-10] DEBUG com.gbq.hospital.dao.DoctorMapper.getAll - <==      Total: 4
+2021-05-20 10:47:07.514 [Thread-59] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2021-05-20 10:47:07.523 [Thread-59] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2021-05-20 10:47:07.525 [Thread-59] INFO  o.a.s.session.mgt.AbstractValidatingSessionManager - Disabled session validation scheduler.
+2021-05-20 10:47:37.205 [restartedMain] INFO  com.gbq.hospital.HospitalApp - Starting HospitalApp on iMac.local with PID 74033 (started by admin in /Users/admin/Desktop/java源码/未上传/springboot医院管理系统/源码/hospital)
+2021-05-20 10:47:37.212 [restartedMain] INFO  com.gbq.hospital.HospitalApp - No active profile set, falling back to default profiles: default
+2021-05-20 10:47:37.236 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-05-20 10:47:37.236 [restartedMain] INFO  o.s.b.d.env.DevToolsPropertyDefaultsPostProcessor - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-05-20 10:47:37.843 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'shiroConfiguration' of type [com.gbq.hospital.config.shiro.ShiroConfiguration$$EnhancerBySpringCGLIB$$c7ef7f0e] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-05-20 10:47:37.858 [restartedMain] INFO  com.gbq.hospital.config.shiro.ShiroConfiguration - 注入Shiro的Web过滤器-->securityManager
+2021-05-20 10:47:38.035 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'sessionManager' of type [com.gbq.hospital.config.shiro.MySessionManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-05-20 10:47:38.037 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'securityManager' of type [org.apache.shiro.web.mgt.DefaultWebSecurityManager] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-05-20 10:47:38.038 [restartedMain] INFO  com.gbq.hospital.config.shiro.ShiroConfiguration - 注入Shiro的Web过滤器-->shiroFilter
+2021-05-20 10:47:38.068 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration' of type [org.springframework.transaction.annotation.ProxyTransactionManagementConfiguration$$EnhancerBySpringCGLIB$$6a21744a] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-05-20 10:47:38.077 [restartedMain] INFO  o.s.c.s.PostProcessorRegistrationDelegate$BeanPostProcessorChecker - Bean 'authorizationAttributeSourceAdvisor' of type [org.apache.shiro.spring.security.interceptor.AuthorizationAttributeSourceAdvisor] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-05-20 10:47:38.517 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat initialized with port(s): 8088 (http)
+2021-05-20 10:47:38.533 [restartedMain] INFO  org.apache.catalina.core.StandardService - Starting service [Tomcat]
+2021-05-20 10:47:38.533 [restartedMain] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.17]
+2021-05-20 10:47:38.671 [restartedMain] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2021-05-20 10:47:38.671 [restartedMain] INFO  org.springframework.web.context.ContextLoader - Root WebApplicationContext: initialization completed in 1435 ms
+2021-05-20 10:47:39.192 [restartedMain] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Initializing ExecutorService 'applicationTaskExecutor'
+2021-05-20 10:47:39.414 [restartedMain] INFO  o.s.b.d.autoconfigure.OptionalLiveReloadServer - LiveReload server is running on port 35729
+2021-05-20 10:47:39.455 [restartedMain] INFO  o.s.boot.web.embedded.tomcat.TomcatWebServer - Tomcat started on port(s): 8088 (http) with context path ''
+2021-05-20 10:47:39.457 [restartedMain] INFO  com.gbq.hospital.HospitalApp - Started HospitalApp in 22.53 seconds (JVM running for 27.946)
+2021-05-20 10:48:24.525 [http-nio-8088-exec-1] INFO  o.a.c.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-05-20 10:48:24.538 [http-nio-8088-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2021-05-20 10:48:24.544 [http-nio-8088-exec-1] INFO  org.springframework.web.servlet.DispatcherServlet - Completed initialization in 6 ms
+2021-05-20 10:48:24.554 [http-nio-8088-exec-1] INFO  o.a.s.session.mgt.AbstractValidatingSessionManager - Enabling session validation scheduler...
+2021-05-20 10:48:34.828 [http-nio-8088-exec-3] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2021-05-20 10:48:35.031 [http-nio-8088-exec-3] DEBUG com.gbq.hospital.dao.LoginMapper.findByUsername - ==>  Preparing: select * from login where username=? 
+2021-05-20 10:48:35.041 [http-nio-8088-exec-3] DEBUG com.gbq.hospital.dao.LoginMapper.findByUsername - ==> Parameters: zhaoone(String)
+2021-05-20 10:48:35.094 [http-nio-8088-exec-3] DEBUG com.gbq.hospital.dao.LoginMapper.findByUsername - <==      Total: 1
+2021-05-20 10:48:35.097 [http-nio-8088-exec-3] DEBUG com.gbq.hospital.dao.LoginMapper.findByUsername - ==>  Preparing: select * from login where username=? 
+2021-05-20 10:48:35.097 [http-nio-8088-exec-3] DEBUG com.gbq.hospital.dao.LoginMapper.findByUsername - ==> Parameters: zhaoone(String)
+2021-05-20 10:48:35.098 [http-nio-8088-exec-3] DEBUG com.gbq.hospital.dao.LoginMapper.findByUsername - <==      Total: 1
+2021-05-20 10:48:37.021 [http-nio-8088-exec-5] DEBUG c.g.h.dao.PatientMapper.findPatientByLoginId - ==>  Preparing: select * from patient where loginid=? 
+2021-05-20 10:48:37.021 [http-nio-8088-exec-5] DEBUG c.g.h.dao.PatientMapper.findPatientByLoginId - ==> Parameters: 5(Integer)
+2021-05-20 10:48:37.052 [http-nio-8088-exec-5] DEBUG c.g.h.dao.PatientMapper.findPatientByLoginId - <==      Total: 1
+2021-05-20 10:48:37.061 [http-nio-8088-exec-5] DEBUG com.gbq.hospital.dao.DoctorMapper.getAll - ==>  Preparing: select * from doctor where 1=1 order by id 
+2021-05-20 10:48:37.061 [http-nio-8088-exec-5] DEBUG com.gbq.hospital.dao.DoctorMapper.getAll - ==> Parameters: 
+2021-05-20 10:48:37.082 [http-nio-8088-exec-5] DEBUG com.gbq.hospital.dao.DoctorMapper.getAll - <==      Total: 4
+2021-05-20 10:48:38.079 [http-nio-8088-exec-6] DEBUG c.g.h.dao.PatientMapper.findPatientByLoginId - ==>  Preparing: select * from patient where loginid=? 
+2021-05-20 10:48:38.080 [http-nio-8088-exec-6] DEBUG c.g.h.dao.PatientMapper.findPatientByLoginId - ==> Parameters: 5(Integer)
+2021-05-20 10:48:38.081 [http-nio-8088-exec-6] DEBUG c.g.h.dao.PatientMapper.findPatientByLoginId - <==      Total: 1
+2021-05-20 10:48:38.082 [http-nio-8088-exec-6] DEBUG c.g.h.d.H.findTheLastHospitalization - ==>  Preparing: SELECT h.*,p.name as patientname from hospitalization h left join patient p on p.id=h.patientid where h.id=?; 
+2021-05-20 10:48:38.082 [http-nio-8088-exec-6] DEBUG c.g.h.d.H.findTheLastHospitalization - ==> Parameters: 1(Integer)
+2021-05-20 10:48:38.083 [http-nio-8088-exec-6] DEBUG c.g.h.d.H.findTheLastHospitalization - <==      Total: 1
+2021-05-20 10:48:38.084 [http-nio-8088-exec-6] DEBUG c.g.h.d.H.findOtherHospitalization - ==>  Preparing: SELECT h.*,p.name as patientname from hospitalization h left join patient p on p.id=h.patientid where h.id <> ? and patientid=?; 
+2021-05-20 10:48:38.084 [http-nio-8088-exec-6] DEBUG c.g.h.d.H.findOtherHospitalization - ==> Parameters: 1(Integer), 1(Integer)
+2021-05-20 10:48:38.113 [http-nio-8088-exec-6] DEBUG c.g.h.d.H.findOtherHospitalization - <==      Total: 0
+2021-05-20 10:48:38.708 [http-nio-8088-exec-7] DEBUG c.g.h.dao.PatientMapper.findPatientByLoginId - ==>  Preparing: select * from patient where loginid=? 
+2021-05-20 10:48:38.709 [http-nio-8088-exec-7] DEBUG c.g.h.dao.PatientMapper.findPatientByLoginId - ==> Parameters: 5(Integer)
+2021-05-20 10:48:38.710 [http-nio-8088-exec-7] DEBUG c.g.h.dao.PatientMapper.findPatientByLoginId - <==      Total: 1
+2021-05-20 10:48:38.710 [http-nio-8088-exec-7] DEBUG c.g.h.dao.MedicalhistoryMapper.selectByPatientId - ==>  Preparing: select m.*,p.name as patientname,d.name as doctorname from Medicalhistory m left join patient p on p.id=m.patientid left join doctor d on m.doctorid=d.id where patientid = ? 
+2021-05-20 10:48:38.710 [http-nio-8088-exec-7] DEBUG c.g.h.dao.MedicalhistoryMapper.selectByPatientId - ==> Parameters: 1(Integer)
+2021-05-20 10:48:38.752 [http-nio-8088-exec-7] DEBUG c.g.h.dao.MedicalhistoryMapper.selectByPatientId - <==      Total: 2
+2021-05-20 10:48:39.800 [http-nio-8088-exec-9] DEBUG c.g.h.dao.PatientMapper.findPatientByLoginId - ==>  Preparing: select * from patient where loginid=? 
+2021-05-20 10:48:39.800 [http-nio-8088-exec-9] DEBUG c.g.h.dao.PatientMapper.findPatientByLoginId - ==> Parameters: 5(Integer)
+2021-05-20 10:48:39.801 [http-nio-8088-exec-9] DEBUG c.g.h.dao.PatientMapper.findPatientByLoginId - <==      Total: 1
+2021-05-20 10:48:39.802 [http-nio-8088-exec-9] DEBUG c.g.h.dao.MedicalhistoryMapper.selectByPatientId - ==>  Preparing: select m.*,p.name as patientname,d.name as doctorname from Medicalhistory m left join patient p on p.id=m.patientid left join doctor d on m.doctorid=d.id where patientid = ? 
+2021-05-20 10:48:39.802 [http-nio-8088-exec-9] DEBUG c.g.h.dao.MedicalhistoryMapper.selectByPatientId - ==> Parameters: 1(Integer)
+2021-05-20 10:48:39.808 [http-nio-8088-exec-9] DEBUG c.g.h.dao.MedicalhistoryMapper.selectByPatientId - <==      Total: 2
+2021-05-20 10:48:40.182 [http-nio-8088-exec-10] DEBUG c.g.h.dao.PatientMapper.findPatientByLoginId - ==>  Preparing: select * from patient where loginid=? 
+2021-05-20 10:48:40.183 [http-nio-8088-exec-10] DEBUG c.g.h.dao.PatientMapper.findPatientByLoginId - ==> Parameters: 5(Integer)
+2021-05-20 10:48:40.184 [http-nio-8088-exec-10] DEBUG c.g.h.dao.PatientMapper.findPatientByLoginId - <==      Total: 1
+2021-05-20 10:48:40.184 [http-nio-8088-exec-10] DEBUG c.g.h.d.H.findTheLastHospitalization - ==>  Preparing: SELECT h.*,p.name as patientname from hospitalization h left join patient p on p.id=h.patientid where h.id=?; 
+2021-05-20 10:48:40.184 [http-nio-8088-exec-10] DEBUG c.g.h.d.H.findTheLastHospitalization - ==> Parameters: 1(Integer)
+2021-05-20 10:48:40.185 [http-nio-8088-exec-10] DEBUG c.g.h.d.H.findTheLastHospitalization - <==      Total: 1
+2021-05-20 10:48:40.186 [http-nio-8088-exec-10] DEBUG c.g.h.d.H.findOtherHospitalization - ==>  Preparing: SELECT h.*,p.name as patientname from hospitalization h left join patient p on p.id=h.patientid where h.id <> ? and patientid=?; 
+2021-05-20 10:48:40.186 [http-nio-8088-exec-10] DEBUG c.g.h.d.H.findOtherHospitalization - ==> Parameters: 1(Integer), 1(Integer)
+2021-05-20 10:48:40.187 [http-nio-8088-exec-10] DEBUG c.g.h.d.H.findOtherHospitalization - <==      Total: 0
+2021-05-20 10:49:30.320 [Thread-54] INFO  o.s.scheduling.concurrent.ThreadPoolTaskExecutor - Shutting down ExecutorService 'applicationTaskExecutor'
+2021-05-20 10:49:30.346 [Thread-54] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2021-05-20 10:49:30.347 [Thread-54] INFO  o.a.s.session.mgt.AbstractValidatingSessionManager - Disabled session validation scheduler.
